@@ -11,6 +11,9 @@
       background-repeat: no-repeat;
       background-attachment: fixed;
       color: white;
+      margin: 0;
+      padding: 0;
+      position: relative;
     }
 
     h1 {
@@ -39,6 +42,7 @@
       margin-top: 300px;
       color: cadetblue;
     }
+
     video {
       display: block;
       margin: 250px auto 10%;
@@ -55,12 +59,14 @@
       color: rgb(230, 1, 162);
       font-size: large;
     }
-h6 {
-  text-align: center;
+
+    h6 {
+      text-align: center;
       margin-top: -100;
       color: rgb(230, 108, 1);
       font-size: larger;
-}
+    }
+
     .small-img {
       width: 70px;
       height: auto;
@@ -73,27 +79,63 @@ h6 {
       margin: center;
       margin-top: 290px;
     }
+
+    /* Button container */
+    .button-container {
+      position: absolute;
+      bottom: -60px;
+      right: px;
+      width: 100%;
+      display: flex;
+      padding: 0 20px;
+    }
+
+    .side-button {
+      padding: 10px 20px;
+      background-color: #500554;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+    }
+
+    .side-button img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+
+    .side-button:hover {
+      background-color: #9302b7;
+    }
   </style>
 </head>
 <body>
   <h1>////////////`Pretendo Gamecube</h1>
-  <h2>Ever thought about those jokes of
-    people saying "Pretendo Gamecube when?" well that won’t be
-    a joke anymore, Introducing Pretendo GC, A port of
-    Pretendo over to the Gamecube! The Servers can support
-    up to 7 people, depending on which game of course! This is still a WIP and not known when to release! There will be a video on how this will work, below the reason we want to do this!! 
-    ⚠️THERE ARE NO GAMES CURRENTLY SUPPORTED! THE SOFTWARE IS NOT READY FOR PUBLIC USE⚠️
-  </h2>
+  <h2>Ever thought about those jokes of people saying "Pretendo Gamecube when?" well that won’t be a joke anymore, Introducing Pretendo GC, A port of Pretendo over to the Gamecube! The Servers can support up to 7 people, depending on which game of course! This is still a WIP and not known when to release! There will be a video on how this will work, below the reason we want to do this!! ⚠️THERE ARE NO GAMES CURRENTLY SUPPORTED! THE SOFTWARE IS NOT READY FOR PUBLIC USE⚠️</h2>
   <h3>Gamecube online servers!</h3>
   <h4>The image that inspired us to work on this project</h4>
-  <h5>Pretendo GC was inspired from memes and people saying "pretendo on the GameCube". We just really wanted to do something that
-    would just be insane to think about. This may be hard but it's possible :)
-  </h5>
-  <center><h6>This video will teach you about what we will TRY to do. Plz Do remember that this is a WIP and may take awhile cause of how new we are to this. Sit back and learn as you watch the video! </h6></center>
+  <h5>Pretendo GC was inspired from memes and people saying "pretendo on the GameCube". We just really wanted to do something that would just be insane to think about. This may be hard but it's possible :)</h5>
+  <center><h6>This video will teach you about what we will TRY to do. Plz Do remember that this is a WIP and may take awhile cause of how new we are to this. Sit back and learn as you watch the video!</h6></center>
   <img class="small-img" src="https://github.com/5quirre1/Pretendo-GameCube/blob/main/gamecube.jpg?raw=true" alt="Gamecube">
   <center><img class="center" src="https://github.com/5quirre1/Pretendo-GameCube/blob/main/image.png?raw=true"></center>
   <video width="400" controls>
     <source src="https://www.bitview.net/videos/S5Ki_QYo0wz0W4CMfwcn.mp4" type="video/mp4">
   </video>
+
+  <!-- GitHub Buttons -->
+  <div class="button-container">
+    <a href="https://github.com/wish13yt" class="side-button" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub logo">
+      wish13yt
+    </a>
+    <a href="https://github.com/5quirre1" class="side-button" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub logo">
+      5quirre1
+    </a>
+  </div>
 </body>
 </html>
